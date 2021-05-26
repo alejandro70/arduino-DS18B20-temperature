@@ -3,6 +3,11 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
+// DS18B20 (Digital Temperature Sensor) and Arduino © GPL3+
+// https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806
+// TM1637 Digit Display - Arduino Quick Tutorial © GPL3+
+// https://create.arduino.cc/projecthub/ryanchan/tm1637-digit-display-arduino-quick-tutorial-ca8a93
+
 #define TM1637_CLK 5   // TM1637 clock pin
 #define TM1637_DIO 6   // TM1637 data pin
 #define ONE_WIRE_BUS 7 //DS18S20 Signal pin
